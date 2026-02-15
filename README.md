@@ -22,4 +22,6 @@ But they hide what they are doing, and might even charge you for a 'print qualit
 
 WIFI QR codes are very simple. So simple in fact that you can implement them in typst, assuming you have access to a QR code generator. I reverse engineered the function that generates these.
 
+While I was at it, I figured I might as well put it on a proper page, formatted and ready to print. I included the details in text too, for people who don't have a camera. 
+
 Feel free to steal the code for this and to modify it however you like. You shouldn't have to pay for something as easy as this. If you customise it to get some totally rad version that looks 10x better, drop me a line - I'd love to see it (and maybe steal it for myself).
