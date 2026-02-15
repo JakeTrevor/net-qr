@@ -1,7 +1,7 @@
 # WIFI QR codes in typst
 
 
-Create a nice, printable, frameable QR code for your network
+Create a nice, printable, frameable QR code for your network. There's an example in [example.pdf](./example.pdf).
 
 We need a package for rendering QR codes. Thank you to [cades](https://typst.app/universe/package/cades/) for that.
 
