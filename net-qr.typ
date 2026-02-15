@@ -6,6 +6,8 @@
   paper: "a5",
 )
 
+// I like Roboto - you may need to install it.
+// From google fonts: https://fonts.google.com/selection?preview.text=Network:%20Tea%20Town
 #set text(
   font: "Roboto",
 )
