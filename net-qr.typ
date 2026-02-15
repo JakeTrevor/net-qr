@@ -7,7 +7,7 @@
 )
 
 // I like Roboto - you may need to install it.
-// From google fonts: https://fonts.google.com/selection?preview.text=Network:%20Tea%20Town
+// From google fonts: https://fonts.google.com/specimen/Roboto
 #set text(
   font: "Roboto",
 )
