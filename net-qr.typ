@@ -1,3 +1,5 @@
+// Create a nice, printable, frameable QR code for your network
+// Need a package for rendering QR codes
 #import "@preview/cades:0.3.1": qr-code
 
 #set page(
@@ -12,6 +14,9 @@
   if b { "true" } else { "false" }
 }
 
+
+// This function does all the trickery.
+// It's just magic - although not all that hard to parse.
 #let net-qr(network, passcode, encryption: "WPA", hidden: false, debug: false) = {
   assert(
     encryption in ("nopass", "WPA", "WEP"),
@@ -36,9 +41,13 @@
   ]
 }
 
+
+// Fill in your details below:
 #let network = "Your wifi network name"
 #let password = "your wifi password"
 
+
+// And then just render (with some boxes, because I think they look nice).
 #place(center, [
   = Get online:
   #v(40pt)
