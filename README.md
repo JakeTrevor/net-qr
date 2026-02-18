@@ -5,7 +5,11 @@ Create a nice, printable, frameable QR code for your network. There's an example
 
 We need a package for rendering QR codes. Thank you to [cades](https://typst.app/universe/package/cades/) for that.
 
-I also use [Roboto](https://fonts.google.com/specimen/Roboto) for this template, because I like the way it looks.
+I also use [Roboto](https://fonts.google.com/specimen/Roboto) for this template, because I like the way it looks. If you're on mac, you can get it off brew:
+
+```sh
+brew install --cask font-roboto
+```
 
 
 ### Some background
